@@ -1,0 +1,18 @@
+Download python
+Download virtual environment:
+$pip install virtualenv
+Name your virtual environment:
+$python -m venv venv
+
+Turn on a virtual environment:
+$source venv/Scripts/activate
+
+Turning on virtual environment(already installed) using gitbash:
+$. activate 
+
+to run the application:
+python manage.py runserver
+
+connecting to database:
+install database dependency to connect and communicate with Django.
+$pip install psycopg2
