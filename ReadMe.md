@@ -20,6 +20,7 @@ Turn on Virtual Environment:
 # step1:
 Execute the pip freeze command to show all installed files and copies them into a file called requirements.txt:
 >$pip freeze >requirements.txt
+<br>
 the followingis for viewing the files:
 >$cat requirements.txt
 
@@ -46,8 +47,10 @@ Here, the created ProcFile requires a Gunicorn as it is one of the most preferre
 # step 5:
 Install gunicorn:
 >$pip install gunicorn 
+<br>
 Include it in the requirement.txt:
 >pip freeze >requirements.txt
+<br>
 check if it is there:
 >cat requirements.txt
 
@@ -58,6 +61,7 @@ Install django-heroku:
 
 update the requirements.txt file:
 >$pip freeze > requirements.txt
+<br>
 >$cat requirements.txt
 
 # step 7:
@@ -77,8 +81,10 @@ Since, you are now moving onto the production site, the ‘DEBUG’ in ‘settin
 # step 10:
 To initialize a new or empty repository:
 >$git init
+<br>
 To add all the files from your directory:
 >$git add .
+<br>
 Commiting changes and nan=ming the commit:
 >$git commit -m "deploy"
 
